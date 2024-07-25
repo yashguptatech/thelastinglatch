@@ -1,0 +1,64 @@
+{
+  "homePage": {
+    "title": "Crafting software solutions tailored to your needs.",
+    "content": "We specialize in creating bespoke software solutions designed to perfectly fit your unique requirements and goals, ensuring optimal performance and efficiency",
+    "buttonTitle": "Engage With Us",
+    "image": "/software.svg"
+  },
+
+  "services": {
+    "title": "Services we provide",
+    "content": [
+      {
+        "label": "Business Assistants",
+        "desc": "AI powered business program assisting business in providing personalized services that are based on data, questions, task and command execution",
+        "path": "/business-assistants"
+      },
+      {
+        "label": "Chat Bot",
+        "desc": "Custom developed AI program for exceptional experiences for your business.",
+        "path": "/chat-bot"
+      },
+      {
+        "label": "Smart Sensors",
+        "desc": "Real-time data collection for predictive operation, maintenance and safety",
+        "path": "/smart-sensor"
+      },
+      {
+        "label": "Connected Devices",
+        "desc": "Seamless integration of hardware, software, and cloud.",
+        "path": "/connected-devices"
+      },
+      {
+        "label": "Industrial IoT (IIoT)",
+        "desc": "Technologies into industrial processes, systems, and environments to enhance operational efficiency, productivity, and safety i.e. remote monitoring and control of industrial assets, equipment, and processes from centralized centre or mobile devices.",
+        "path": "/iot"
+      },
+      {
+        "label": "Business Process Automation",
+        "desc": "Automate repetitive tasks, reduce errors, and boost efficiency",
+        "path": "/business-process-automation"
+      }
+    ]
+  },
+
+  "aboutCompany": {
+    "title": "About Company",
+    "content": "We believe in attaching the power of AI and IOT devices to transform the way a business operate and raise human potential at workplace. Our mission is to create a seamless fusion of AI, IoT, and process automation, enabling organizations to thrive in the digital age.",
+    "points": [
+      {
+        "label": "AI:",
+        "desc": "We create AI-driven solutions meant for different business functions i.e. sales & marketing, customer services and monitoring, security and surveillance matters etc"
+      },
+      {
+        "label": "IoT:",
+        "desc": " We connect the physical and digital realms through smart devices, sensors, and data analytics. Our IoT solutions enhance efficiency, safety, and sustainability across industries."
+      },
+      {
+        "label": "BPT:",
+        "desc": "Mash Vision redefines how businesses work. We streamline workflows, automate repetitive tasks, and empower decision-makers with real-time insights"
+      }
+    ],
+    "image": "/about1.svg"
+  }
+}
