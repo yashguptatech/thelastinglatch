@@ -1,2 +1,6 @@
 # thelastinglatch
-A group project by :- Bhumi Bhatt, YASH GUPTA
+A Software Consultancy Company
+
+A group project by:
+BHUMI BHATT
+YASH GUPTA
