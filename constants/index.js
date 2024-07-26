@@ -23,5 +23,5 @@ export const contact = [
     icon: <FaLocationDot />,
     content: "New Delhi, India",
   },
-  { label: "Call us at", icon: <FaPhoneAlt />, content: "+91 9999284198" },
+  { label: "Call us at", icon: <FaPhoneAlt />, content: "+91 9999" },
 ];
