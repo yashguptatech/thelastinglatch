@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="flex items-center gap-2">
               <Image src={logo} alt="logo" width={70} height={70} />
               <h3>
-                Mash<span>Vision</span>
+                The<span>Lasting</span>Latch
               </h3>
             </div>
           </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
         >
           <Link href="/" onClick={handleChange}>
             <h2 className="text-background">
-              Mash<span>Vision</span>
+            The<span>Lasting</span>Latch
             </h2>
           </Link>
           <div className="flex flex-col items-start justify-center w-full h-full gap-10">

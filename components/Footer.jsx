@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-col items-start gap-3">
             <Link href="/">
               <h3>
-                Mash<span>Vision</span>
+              The<span>Lasting</span>Latch
               </h3>
             </Link>
             <p>
@@ -43,21 +43,22 @@ const Footer = () => {
               <div className="flex items-center gap-2">
                 <IoMdMail size={15} />
                 <div className="flex flex-col items-start">
-                  <p>prashant@mashvision.in</p>
-                  <p>info@mashvision.in</p>
+                  <p>vatan@thelastinglastch.com</p>
+                  <p>info@thelastinglastch.com</p>
                 </div>
               </div>
 
               <div className="flex items-center gap-2">
                 <FaPhoneAlt size={15} />
-                <p>+91 9953034390</p>
+                <p>+91 7428426222</p>
               </div>
 
               <div className="flex items-start gap-2">
                 <FaLocationDot size={25} />
                 <p>
-                  4th Floor, Plot No.94, Sector 13 - Dwarka, Opposite Metro
-                  Station, New Delhi - 110078
+                  South Delhi, New Delhi
+                  <br />
+                  India
                 </p>
               </div>
             </div>
@@ -82,7 +83,7 @@ const Footer = () => {
         <hr className="mt-5" />
 
         <div className="flex flex-col lg:flex-row gap-3 items-center justify-between py-3">
-          <p>2024 - All Rights Reserved | MashVision</p>
+          <p>2024 - All Rights Reserved | The Lasting Latch</p>
           <div className="flex items-center gap-3 text-xl">
             {socials.map((social, index) => {
               return (

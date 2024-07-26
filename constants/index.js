@@ -17,11 +17,11 @@ export const socials = [
 ];
 
 export const contact = [
-  { label: "Email us at", icon: <IoMdMail />, content: "info@mashvision.in" },
+  { label: "Email us at", icon: <IoMdMail />, content: "info@thelastinglatch.com" },
   {
     label: "Our Location",
     icon: <FaLocationDot />,
     content: "New Delhi, India",
   },
-  { label: "Call us at", icon: <FaPhoneAlt />, content: "+91 9953034390" },
+  { label: "Call us at", icon: <FaPhoneAlt />, content: "+91 9999284198" },
 ];
