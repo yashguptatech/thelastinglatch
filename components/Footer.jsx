@@ -43,24 +43,24 @@ const Footer = () => {
               <div className="flex items-center gap-2">
                 <IoMdMail size={15} />
                 <div className="flex flex-col items-start">
-                  <p>vatan@thelastinglastch.com</p>
-                  <p>info@thelastinglastch.com</p>
+                  {/* <p>vatan@thelastinglastch.com</p> */}
+                  <p>info@thelastinglatch.com</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <FaPhoneAlt size={15} />
                 <p>+91 7428426222</p>
-              </div>
+              </div> */}
 
-              <div className="flex items-start gap-2">
+              {/* <div className="flex items-start gap-2">
                 <FaLocationDot size={25} />
                 <p>
                   South Delhi, New Delhi
                   <br />
                   India
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 
