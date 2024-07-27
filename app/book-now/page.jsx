@@ -7,14 +7,14 @@ const EngageWithUs = () => {
       <div className="w-full px-5 lg:px-10 py-10">
         <TransitionEffect />
         <div className="flex flex-col items-center justify-center gap-3">
-          <h3>Get in Touch</h3>
-          <p>Let&apos;s have a chat</p>
+          <h3>Book Hours</h3>
+          {/* <p>Let&apos;s have a chat</p> */}
         </div>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
             <form className="flex flex-col gap-6">
               <div className="flex flex-col gap-3">
-                <label htmlFor="name">Full Name</label>
+                <label htmlFor="name">Add Amount</label>
                 <input
                   type="text"
                   id="name"
@@ -22,7 +22,7 @@ const EngageWithUs = () => {
                   className="border border-secondary ring-current bg-transparent rounded-lg p-3"
                 />
               </div>
-              <div className="grid grid-cols-2 gap-2">
+              {/* <div className="grid grid-cols-2 gap-2">
                 <div className="flex flex-col gap-3">
                   <label htmlFor="email">Email</label>
                   <input
@@ -51,10 +51,10 @@ const EngageWithUs = () => {
                   typeof="text"
                   className="border border-secondary  bg-transparent rounded-lg p-3 h-32  resize-none "
                 />
-              </div>
+              </div> */}
               <div>
                 <button className="bg-secondary py-3 px-6 text-background rounded-lg border border-secondary hover:text-heading duration-300 ease-out hover:bg-background">
-                  Send
+                  Buy Now
                 </button>
               </div>
             </form>

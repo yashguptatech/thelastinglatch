@@ -12,7 +12,7 @@ const HomePage = ({ homePage }) => {
         <div className="flex flex-col items-start lg:items-center justify-center gap-3 lg:gap-4">
           <h1 className="leading-[3rem]">{title}</h1>
           <p className="max-w-[900px] lg:text-center">{content}</p>
-          <Link href="/engage-with-us">
+          <Link href="/book-now">
             <Button title={buttonTitle} />
           </Link>
           <img src={image} />

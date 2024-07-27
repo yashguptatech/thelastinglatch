@@ -35,8 +35,8 @@ const Navbar = () => {
                 </ul>
               );
             })}
-            <Link href="/engage-with-us">
-              <Button title="Engage with us" />
+            <Link href="/book-now">
+              <Button title="Book Now" />
             </Link>
           </div>
 
