@@ -6,7 +6,7 @@ const EngageWithUs = () => {
     <>
       <div className="w-full px-5 lg:px-10 py-10">
         <TransitionEffect />
-        <div className="flex flex-col items-center justify-center gap-3 ml-auto pr-20 text-center w-full">
+        <div className="flex flex-col items-center justify-center gap-3 ml-auto pr-6">
           <h3>Book Hours</h3>
           {/* <p>Let&apos;s have a chat</p> */}
         </div>
@@ -14,7 +14,7 @@ const EngageWithUs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8 ">
             <form className="flex flex-col gap-6 items-center ml-auto pr-20 ml-auto pr-8 absolute left-1/2 transform -translate-x-1/2">
               <div className="flex flex-col gap-3 items-center w-full">
-                <label htmlFor="name" className="text-center ml-auto pr-20 absolute left-1/2 transform -translate-x-1/2 ">Add Amount</label>
+                <label htmlFor="name" className="text-center ml-auto pr-10 absolute left-1/2 transform -translate-x-1/2 w-full">Add Amount</label>
                 <input
                   type="text"
                   id="name"
