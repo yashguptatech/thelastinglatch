@@ -14,7 +14,6 @@ const EngageWithUs = () => {
         body: JSON.stringify({ social_media_handle: "testing", sku_id: "6470173b-c2bd-49a3-b60e-1ba6155ca0e6" }),
       });
       const redirectResp = await response.json();
-      console.log(redirectResp);
       if (redirectResp?.checkout_url) {
         window.open(redirectResp?.checkout_url, "_parent");
       } else {
