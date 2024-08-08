@@ -1,7 +1,29 @@
+"use client";
 import React from "react";
 import TransitionEffect from "@/components/TransitionEffect";
 import { contact } from "@/constants";
 const EngageWithUs = () => {
+  async function onSubmitHandler(event) {
+    event.preventDefault();
+    try {
+      const response = await fetch('http://23.21.208.224/api/v1/payments/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ social_media_handle: "testing", sku_id: "6470173b-c2bd-49a3-b60e-1ba6155ca0e6" }),
+      });
+      const redirectResp = await response.json();
+      console.log(redirectResp);
+      if (redirectResp?.checkout_url) {
+        window.open(redirectResp?.checkout_url, "_parent");
+      } else {
+        alert('Something went wrong. Please contact administrator.')
+      }
+    } catch (e) {
+      alert('Something went wrong. Please contact administrator.')
+    }
+  }
   return (
     <>
       <div className="w-full px-5 lg:px-10 py-10">
@@ -12,9 +34,9 @@ const EngageWithUs = () => {
         </div>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8 ">
-            <form className="flex flex-col gap-6 items-center ml-auto pr-20 ml-auto pr-8 absolute left-1/2 transform -translate-x-1/2">
+            <form onSubmit={onSubmitHandler} className="flex flex-col gap-6 items-center ml-auto pr-20 ml-auto pr-8 absolute left-1/2 transform -translate-x-1/2">
               <div className="flex flex-col gap-3 items-center w-full">
-                <label htmlFor="name" className="text-center ml-auto pr-10 absolute left-1/2 transform -translate-x-1/2 w-full">Add Amount</label>
+                <label htmlFor="name" className="text-center ml-auto pr-10 absolute left-1/2 transform -translate-x-1/2 w-full">Add Hours</label>
                 <input
                   type="text"
                   id="name"
@@ -23,7 +45,7 @@ const EngageWithUs = () => {
                   className="border p-2 w-full mt-8 border-secondary ring-current bg-transparent rounded-lg p-3 w-full ml-auto pr-20"
                 />
               </div>
-              
+
               {/* <div className="grid grid-cols-2 gap-2">
                 <div className="flex flex-col gap-3">
                   <label htmlFor="email">Email</label>
