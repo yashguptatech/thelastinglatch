@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  nginx:
+      image: nginx
+      volumes:
+        - './nginx/default.conf:/etc/nginx/nginx.conf'
+        - './nginx/ssl:/etc/nginx/ssl'
+      ports:
+        - '80:80' #local:docker
+        - '443:443'
+      depends_on:
+        - consult
+  consult:
+    image: node:20.11
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    command: >
+      sh -c '
+      node --version && 
+      cd /app &&
+      npm install && 
+      npm run build && 
+      npm start 
+      '
